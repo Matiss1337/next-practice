@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Refreshing my React skills since i started working on Magento 2 and following
+https://www.youtube.com/watch?v=PtDIVU_tlo0&t=67s
+
 ## Getting Started
 
 First, run the development server:
