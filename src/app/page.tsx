@@ -1,13 +1,21 @@
 "use client"
+///allows us to use hooks on client side, otherwise its serverside
 
 import { FormEvent, useState } from "react";
+import {useRouter} from 'next/navigation';
+///Next hooks allows routing
+
 export default function Home() {
 const [inputVal, setInputVal] = useState("")
+const {push} = useRouter();
+/// allows us to use push to redirect to other pages
 
 const handleSubmit = (event: FormEvent) => {
   ///event for TS
   event.preventDefault();
-  /// to prevent refresh
+    /// to prevent refresh
+  push(`/prediction/${inputVal}`)
+  /// now we gona go any route the input value was
 }
 
   return (
